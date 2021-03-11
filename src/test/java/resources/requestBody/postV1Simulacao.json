@@ -1,0 +1,9 @@
+{
+  "nome": "Rodolfo Farley",
+  "cpf": 12364697674,
+  "email": "email@email.com",
+  "valor": 1200,
+  "parcelas": 3,
+  "seguro": true
+}
+
