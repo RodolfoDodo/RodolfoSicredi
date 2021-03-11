@@ -1,0 +1,27 @@
+A API está com alguns bug e melhorias que eu identifiquei e gostaria de repassar
+
+BUG:
+
+O número de parcelas na rota do Post para inseri uma simulação e obrigatorio ser maior que 2.
+Não fiz este teste pq acredito que deve ser um bug.
+
+Os campos de parcelas e valor está aceitando String. Então fiz os testes como String mas na documentação do
+swagger está informando o tipo dos campos e está incorreto.
+
+Não conseguir realizar todos os Status Code
+atualizar 409
+insere simulacao 409
+restrição 204
+
+acredito que seja um bug pq se está no swagger deve ser possível testar.
+
+-----Melhorias-----
+No metado de delete deveria colocar uma resposta caso o ID não esteja cadastrado.
+
+
+-----NÃO FIZ DEVIDO A FALTA DE TEMPO PEÇO DESCULPAS--------------------
+Não utilizei Mock e depois que executar o test pela primeira vez e solicitar a classe SimulacaoTest para executar novamente
+alguns testes vão quebrar ;(. Ai precisa derrubar a API e subir novamente.
+
+Não fiz os testes de Aderência ao Contrato com JSONSchema
+
